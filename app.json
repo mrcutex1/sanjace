@@ -27,6 +27,11 @@
         "value": "",
         "required": true
       },
+      "YTPROXY_URL": {
+        "description": "YT Proxy Server Endpoint",
+        "value": "",
+        "required": true
+      },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
         "value": "",
