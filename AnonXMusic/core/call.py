@@ -300,6 +300,11 @@ class Call(PyTgCalls):
                 link,
                 audio_parameters=AudioQuality.HIGH,video_parameters=VideoQuality.SD_480p
                 )
+            # stream = AudioVideoPiped(
+            #     link,
+            #     audio_parameters=HighQualityAudio(),
+            #     video_parameters=MediumQualityVideo(),
+            # )
         else:
             stream = (
                 MediaStream(
@@ -316,6 +321,11 @@ class Call(PyTgCalls):
                 chat_id,
                 stream
             )
+            # await assistant.join_group_call(
+            #     chat_id,
+            #     stream,
+            #     stream_type=StreamType().pulse_stream,
+            # )
         except NoActiveGroupCall:
             raise AssistantErr(_["call_8"])
         except AlreadyJoinedError:
@@ -623,3 +633,10 @@ class Call(PyTgCalls):
 
 
 Anony = Call()
+                else:
+                    img = await get_thumb(videoid,user_id)
+                    button = stream_markup(_, chat_id)
+                    run = await app.send_photo(
+                        chat_id=original_chat_id,
+                        photo=img,
+                        caption=_["stream_1"].fo
