@@ -48,7 +48,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/blaze_bots_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  5400))
+ASSISTANT_LEAVE_TIME = int(getenv("ASSISTANT_LEAVE_TIME",  6400))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
