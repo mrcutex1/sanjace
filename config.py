@@ -22,9 +22,8 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 300))
 #YTPROXY_URL = getenv("YTPROXY_URL", 'http://tubed1.okflix.top/') ## E.G https://yt.okflix.
 #YT_API_KEY = "freekey15052025"
 
-# Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'http://tubed.okflix.top') ## E.G https://yt.okflix.
-YT_API_KEY = "freekey15052025"
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", '30DxNexGenBotsc0db7b') # 
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1001964294961))
