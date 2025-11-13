@@ -94,20 +94,20 @@ autoclean = []
 confirmer = {}
 file_cache: dict[str, float] = {}
 
-START_IMG_URL = ["https://imgur.com/a/kGZXSOx",
-                 "https://imgur.com/a/N4TW6ru",
-                 "https://imgur.com/a/kGZXSOx",]
+START_IMG_URL = ["https://ibb.co/9MrfmPt",
+                 "https://ibb.co/9MrfmPt",
+                 "https://ibb.co/9MrfmPt",]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/87f680aead03443f291b0.jpg"
+    "PING_IMG_URL", "https://ibb.co/9MrfmPt"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/edd388a42dd2c499fd868.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/492a3bb2e880d19750b79.jpg"
+PLAYLIST_IMG_URL = "https://ibb.co/9MrfmPt"
+STATS_IMG_URL = "https://ibb.co/9MrfmPt"
+TELEGRAM_AUDIO_URL = "https://ibb.co/9MrfmPt"
+TELEGRAM_VIDEO_URL = "https://ibb.co/9MrfmPt"
 STREAM_IMG_URL = "https://graph.org/file/ff2af8d4d10afa1baf49e.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/e8730fdece86a1166f608.jpg"
+YOUTUBE_IMG_URL = "https://ibb.co/9MrfmPt"
 SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0bb6f36796d496b4254ff.jpg"
